@@ -1,0 +1,86 @@
+* {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient( rgb(247, 208, 247), rgb(182, 90, 122))
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(170, 66, 130);
+    padding: 40px;
+    text-shadow: 2px 2px 0px rgba(49, 51, 78, 0.275);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+div {
+    height: 10px;
+    width: 10px;
+}
+.um {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.areia {
+    background-color: rgb(227, 168, 91);
+}
+.pink {
+    background-color: rgb(230, 111, 131);
+}
+.pink2 {
+    background-color: rgb(177, 22, 76);
+}
+.orange {
+    background-color: rgb(255, 109, 25);
+}
+.gray {
+    background-color: gray;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: rgb(13, 147, 13);
+}
+.blue {
+    background-color: rgb(0, 127, 218);
+}
+.blush {
+    background-color: rgb(251, 119, 99);
+}
+.purple {
+    background-color: purple;
+}
+.white {
+    background-color: white;
+}
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+
+}
+#main:hover {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    animation: rotate 2s infinite;
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
