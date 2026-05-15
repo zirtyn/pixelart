@@ -87,7 +87,7 @@ div {
     0%
         {transform: translate(-50%, -50%) translateY(0);}
     50%
-        {transform: translate(-50%, -50%) translateY(-25px); scale: 1.01;}
+        {transform: translate(-50%, -50%) translateY(-25px);}
     100% 
         {transform: translate(-50%, -50%) translateY(0);}
 }
